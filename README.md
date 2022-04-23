@@ -23,3 +23,4 @@ this could go two ways. either
     - e.g. hello world
 
 - transpile to c++ instead of just interpret?
+- OR create some sort of transpiler to brainfuck. eg take text in and make bf program that prints that text (obfuscator)
