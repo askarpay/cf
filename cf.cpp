@@ -1,7 +1,6 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <vector>
 
 #define CELLS_SIZE 30000
 const bool DEBUG = false;
@@ -61,14 +60,6 @@ int main(int argc, char const *argv[]) {
     /* * * showtime * * */
 
     // descriptions referenced from http://brainfuck.org/brainfuck.html
-
-    // // hack for now, we'll deal with file input later
-    // // sample program prints hello world :)
-    // char program[] =
-    //     ">++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<++"
-    //     "+++++>-]<++.-- -- -- -- -- --.>++ ++ ++[<++ ++ ++ ++ +> - ] < +.<.++
-    //     "
-    //     "+.-- -- --.-- -- -- --.>>>++ ++[<++ ++ ++ ++> - ] <+.";
 
     // command_index keeps track of where we are in source code
     // note!!!!! we have TWO counters/pointers going on here. one lives in
@@ -217,7 +208,7 @@ int main(int argc, char const *argv[]) {
         command_index++; // go to next command
     }
 
-    std::cout << '\n'; // print final newline just to tidy things up
+    std::cout << '\n'; // print final newline just to tidy things up :)
 
     return 0;
 }
