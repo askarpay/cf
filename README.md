@@ -1,4 +1,4 @@
-# bf in c++ [UC CS1021 project]
+# bf in c++ (UC CS1021 project)
 
 ## base goal: create a stack machine as defined by the bf standard, while only referencing the spec.
 
